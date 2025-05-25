@@ -114,6 +114,11 @@
     cursor: pointer;
     font-size: 1rem;
   }
+
+  .chat-header {
+    border: 2px solid red; /* Debug border */
+  }
+  
   
   /* Responsive tweaks */
   @media (max-width: 768px) {
