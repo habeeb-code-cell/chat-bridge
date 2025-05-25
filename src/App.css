@@ -36,7 +36,7 @@
   
   .chat-header {
     padding: 20px;
-    background: #2e86de;
+    background: #2e2e2e;
     color: white;
     text-align: center;
     font-size: 24px;
@@ -46,17 +46,8 @@
   
   .chat-messages {
     flex: 1;
-    padding: 1rem;
-    background: #1e1e1e;
     overflow-y: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-  
-  .chat-body {
-    flex: 1;
-    padding: 20px;
+    padding: 10px;
   }
   
   .message {
@@ -109,10 +100,6 @@
     font-size: 1rem;
   }
 
-  .chat-header {
-    border: 2px solid red; /* Debug border */
-  }
-  
   
   /* Responsive tweaks */
   @media (max-width: 768px) {

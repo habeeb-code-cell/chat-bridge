@@ -59,7 +59,6 @@ function App() {
   return (
     <div className="chat-container">
       <div className="chat-header">Chat Bridge</div>
-      <div className="chat-body">Content here</div>
       
       <div className="chat-messages">
         {messages.map((msg, idx) => (
