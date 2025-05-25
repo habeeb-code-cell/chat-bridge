@@ -135,3 +135,21 @@
     }
   }
   
+  /* Responsive Heading */
+.header {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    padding: 20px 10px;
+    word-wrap: break-word;
+  }
+  
+  /* For small screens */
+  @media (max-width: 600px) {
+    .header {
+      font-size: 1.5rem;
+      padding: 15px 5px;
+    }
+  }
+  
