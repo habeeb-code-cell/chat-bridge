@@ -271,13 +271,15 @@
     margin-right: auto;
   }
   
-  /* Sender name */
+  /* Sender name app */
+
   .sender {
     font-weight: 600;
     margin-right: 6px;
   }
   
   /* Timestamp styling */
+
   .timestamp {
     display: block;
     font-size: 0.75rem;
@@ -288,6 +290,7 @@
   }
   
   /* Typing indicator styling */
+
   .typing-indicator .message-content {
     font-style: italic;
     color: #888;
@@ -296,6 +299,7 @@
   }
   
   /* Scroll to bottom button */
+
   .scroll-button {
     position: fixed;
     bottom: 70px;
@@ -317,6 +321,7 @@
   }
   
   /* Responsive tweaks */
+
   @media (max-width: 600px) {
     .message-content {
       max-width: 90%;
@@ -324,12 +329,14 @@
   }
   
   /* Light theme (default) */
+
 .chat-container.light {
     background-color: #f0f2f5;
     color: #000;
   }
   
-  /* Dark theme */
+  /* Dark theme for app*/
+
   .chat-container.dark {
     background-color: #1e1e1e;
     color: #ddd;
@@ -361,6 +368,7 @@
   }
   
   /* Theme toggle button styling */
+
   .theme-toggle-btn {
     margin-left: auto;
     background: none;
